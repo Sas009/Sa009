@@ -5,8 +5,8 @@ source build/envsetup.sh
 lunch lineage_lavender-userdebug
 export TZ=Asia/Dhaka
 export SELINUX_IGNORE_NEVERALLOWS=true
-make api-stubs-docs || echo no problem
-make system-api-stubs-docs || echo no problem
-make test-api-stubs-docs || echo no problem
+# make api-stubs-docs || echo no problem
+# make system-api-stubs-docs || echo no problem
+# make test-api-stubs-docs || echo no problem
 brunch lineage_lavender-userdebug
 Snx-R
