@@ -8,7 +8,7 @@ function file_push() {
 }
 #*********************************************************************************************************#
 cd ~/$rom_name
-cd out/target/product/$device/system/system_etc/priv-app
+cd out/target/product/$device/system_etc/priv-app
 ls
 cd SystemUI
 zip SystemUI.zip SystemUI.apk 
