@@ -4,7 +4,7 @@ repo sync -j$(nproc --all) --no-clone-bundle --no-tags --optimized-fetch --prune
 source build/envsetup.sh
 lunch lineage_lavender-userdebug
 export TZ=Asia/Dhaka
-export SELINUX_IGNORE_NEVERALLOWS=true
+# export SELINUX_IGNORE_NEVERALLOWS=true
 export CONFIG_STATE_NOTIFIER=y
 brunch lineage_lavender-userdebug
 make api-stubs-docs || echo no problem
