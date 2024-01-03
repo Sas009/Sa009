@@ -1,6 +1,6 @@
 env:
     CIRRUS_CLONE_DEPTH: 1
-    rom_name: crdroid
+    rom_name: nusa
     device: lavender
 
 task:

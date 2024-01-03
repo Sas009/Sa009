@@ -8,7 +8,7 @@ source build/envsetup.sh
 lunch nad_lavender-userdebug 
 # export extra module
 export TZ=Asia/Dhaka
-export SELINUX_IGNORE_NEVERALLOWS=true
+# export SELINUX_IGNORE_NEVERALLOWS=true
 # make api-stubs-docs || echo no problem
 # make system-api-stubs-docs || echo no problem
 # make test-api-stubs-docs || echo no problem
