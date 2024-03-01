@@ -16,8 +16,7 @@ export SELINUX_IGNORE_NEVERALLOWS=true
 # make test-api-stubs-docs || echo no problem
 # vanilla build
 m bacon
-cat out/error.log
-export GAPPS_BUILD=true
+export GAPPS_BUILD=false
 Snx-R
 # export GAPPS_BUILD=true
 # # only specific app build
