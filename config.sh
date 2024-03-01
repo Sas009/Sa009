@@ -3,7 +3,7 @@
 # repo init -u https://github.com/ProjectMatrixx/android.git -b 14.0 --git-lfs
 repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
 # replace with your manifest
-git clone git@github.com:Sa-Sajjad/manifest.git --depth 1 -b mtx-14 .repo/local_manifests #ten-se-permissive
+git clone git@github.com:Sa-Sajjad/manifest.git --depth 1 -b matrix .repo/local_manifests #ten-se-permissive
 # sync script
 repo sync -j$(nproc --all) --no-clone-bundle --no-tags --optimized-fetch --prune
 source build/envsetup.sh
